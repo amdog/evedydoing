@@ -1,19 +1,5 @@
-# evedydoing
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# evedydoing 项目管理 
+## 前后端分离 vue + nodejs
+## 功能概要
+- 管理项目分工
+- 管理项目进行状态
