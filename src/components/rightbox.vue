@@ -1,6 +1,6 @@
 <template>
-  <div class="m">
-      <router-view></router-view>
+  <div class="n" :style="{'width':clientW}">
+    <router-view/>
   </div>
 </template>
 
@@ -10,15 +10,26 @@
 export default {
   name: 'rightbox',
   components: {
+  },
+  data(){
+    return {
+      clientW:'0px'
+      }
+  },
+  created(){
+    this.clientW=`${document.documentElement.clientWidth - 260}px`
   }
 }
 </script>
 <style lang="scss" scoped>
-  .m{
+  .n{
     position: fixed;
     top: 0;
     background: white;
-    width: 100%;
-    margin-left: 240px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 260px;
   }
 </style>

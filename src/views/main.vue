@@ -9,7 +9,7 @@
 import rightbox from '../components/rightbox.vue'
 import leftbox from '../components/leftbox.vue'
 export default {
-  name: 'main',
+  name: 'v-main',
   components: {
     rightbox,
     leftbox
